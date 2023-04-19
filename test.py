@@ -1,9 +1,6 @@
-def demo(lst):
-    result = []
-    for element in lst:
-        if isinstance(element, str) and any(char.isdigit() for char in element):
-            result.append(element)
-    print(result)
+hi = input("what are you doing here? ")
+if hi=="nothing":
+    print("ok go on")
 
-lst = ["apple", 123, "banana", "cherry2", "3grape"]
-demo(lst)
+else:
+    print("okay, but here you're not allowed!")
